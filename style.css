@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #252222;
+    color: #f7f5f5;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #003366;
+    padding: 15px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+table th {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+}
